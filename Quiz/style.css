@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(225, 215, 183);
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.input{
+    display: flex;
+    gap: 30px;
+}
+.input input{
+    width: 350px;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 16px;
+}
+.input button{
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(30, 42, 94);
+    color: white;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 50%;
+}   
+.option{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+#main input{
+    height: 25px;
+    width: 25px;
+    
+}
+label{
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+}
+.nextButton button{
+    margin-top: 40px;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(30, 42, 94);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.sugestion{
+    margin-top: 30px;
+}
+.hide{
+    display: none;
+}
